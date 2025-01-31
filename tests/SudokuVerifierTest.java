@@ -15,7 +15,7 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testCorrectString() {
-		int a = v.verify(gc);
+		int a = v.verify(c);
 		assertEquals("correct string", a, 0);
 	}
 
